@@ -1,0 +1,212 @@
+2022-11-15 20:47:31,359 - INFO: +--------------------------+----------------+
+| Parameter                | Value          |
++--------------------------+----------------+
+| exp_name                 | dqn            |
++--------------------------+----------------+
+| seed                     | 42             |
++--------------------------+----------------+
+| total_timesteps          | 500000         |
++--------------------------+----------------+
+| learning_rate            | 0.001          |
++--------------------------+----------------+
+| buffer_size              | 5000           |
++--------------------------+----------------+
+| gamma                    | 0.990          |
++--------------------------+----------------+
+| target_network_frequency | 100            |
++--------------------------+----------------+
+| batch_size               | 128            |
++--------------------------+----------------+
+| start_e                  | 0.300          |
++--------------------------+----------------+
+| end_e                    | 0.050          |
++--------------------------+----------------+
+| exploration_fraction     | 0.100          |
++--------------------------+----------------+
+| learning_starts          | 10000          |
++--------------------------+----------------+
+| train_frequency          | 10             |
++--------------------------+----------------+
+| env_id                   | LunarLander-v2 |
++--------------------------+----------------+
+2022-11-15 20:47:38,041 - INFO: global_step=111, episodic_return=-611.77490234375
+2022-11-15 20:47:38,367 - INFO: global_step=172, episodic_return=-122.97918701171875
+2022-11-15 20:47:38,696 - INFO: global_step=228, episodic_return=-94.93672180175781
+2022-11-15 20:47:39,149 - INFO: global_step=311, episodic_return=-406.9200134277344
+2022-11-15 20:47:39,582 - INFO: global_step=380, episodic_return=-112.57621765136719
+2022-11-15 20:47:40,254 - INFO: global_step=495, episodic_return=-479.4324645996094
+2022-11-15 20:47:40,720 - INFO: global_step=573, episodic_return=-398.597900390625
+2022-11-15 20:47:41,496 - INFO: global_step=713, episodic_return=-640.2501220703125
+2022-11-15 20:47:42,147 - INFO: global_step=814, episodic_return=-671.2049560546875
+2022-11-15 20:47:42,904 - INFO: global_step=934, episodic_return=-627.7997436523438
+2022-11-15 20:47:43,866 - INFO: global_step=1101, episodic_return=-776.7139282226562
+2022-11-15 20:47:44,194 - INFO: global_step=1154, episodic_return=-118.8988037109375
+2022-11-15 20:47:45,745 - INFO: global_step=1421, episodic_return=-1337.0836181640625
+2022-11-15 20:47:46,472 - INFO: global_step=1533, episodic_return=-607.4620361328125
+2022-11-15 20:47:46,796 - INFO: global_step=1587, episodic_return=-106.96476745605469
+2022-11-15 20:47:47,271 - INFO: global_step=1662, episodic_return=-501.8840026855469
+2022-11-15 20:47:47,819 - INFO: global_step=1744, episodic_return=-493.2634582519531
+2022-11-15 20:47:48,204 - INFO: global_step=1810, episodic_return=-482.505859375
+2022-11-15 20:47:49,817 - INFO: global_step=2082, episodic_return=-1533.2449951171875
+2022-11-15 20:47:50,148 - INFO: global_step=2138, episodic_return=-440.23358154296875
+2022-11-15 20:47:50,528 - INFO: global_step=2202, episodic_return=-500.1899719238281
+2022-11-15 20:47:51,010 - INFO: global_step=2282, episodic_return=-595.8942260742188
+2022-11-15 20:47:51,532 - INFO: global_step=2357, episodic_return=-572.2611083984375
+2022-11-15 20:47:51,992 - INFO: global_step=2439, episodic_return=-581.3500366210938
+2022-11-15 20:47:52,654 - INFO: global_step=2550, episodic_return=-620.091064453125
+2022-11-15 20:47:53,261 - INFO: global_step=2655, episodic_return=-494.74847412109375
+2022-11-15 20:47:53,716 - INFO: global_step=2736, episodic_return=-512.0510864257812
+2022-11-15 20:47:54,067 - INFO: global_step=2799, episodic_return=-494.1636657714844
+2022-11-15 20:47:54,457 - INFO: global_step=2874, episodic_return=-506.3654479980469
+2022-11-15 20:47:54,822 - INFO: global_step=2937, episodic_return=-129.6429901123047
+2022-11-15 20:47:55,398 - INFO: global_step=3046, episodic_return=-635.1983642578125
+2022-11-15 20:47:55,784 - INFO: global_step=3105, episodic_return=-87.34154510498047
+2022-11-15 20:47:56,266 - INFO: global_step=3185, episodic_return=-449.6429748535156
+2022-11-15 20:47:56,941 - INFO: global_step=3294, episodic_return=-523.788818359375
+2022-11-15 20:47:57,696 - INFO: global_step=3433, episodic_return=-650.43603515625
+2022-11-15 20:47:58,202 - INFO: global_step=3517, episodic_return=-543.8724365234375
+2022-11-15 20:47:58,530 - INFO: global_step=3570, episodic_return=-119.3675308227539
+2022-11-15 20:47:59,215 - INFO: global_step=3672, episodic_return=-605.9207763671875
+2022-11-15 20:48:00,216 - INFO: global_step=3831, episodic_return=-967.9526977539062
+2022-11-15 20:48:00,751 - INFO: global_step=3916, episodic_return=-648.0430908203125
+2022-11-15 20:48:01,005 - INFO: global_step=3966, episodic_return=-372.108642578125
+2022-11-15 20:48:01,745 - INFO: global_step=4091, episodic_return=-654.6156005859375
+2022-11-15 20:48:02,775 - INFO: global_step=4267, episodic_return=-807.7493896484375
+2022-11-15 20:48:03,568 - INFO: global_step=4404, episodic_return=-628.9154052734375
+2022-11-15 20:48:03,884 - INFO: global_step=4461, episodic_return=-109.63798522949219
+2022-11-15 20:48:04,222 - INFO: global_step=4518, episodic_return=-118.64838409423828
+2022-11-15 20:48:04,625 - INFO: global_step=4589, episodic_return=-122.46153259277344
+2022-11-15 20:48:04,977 - INFO: global_step=4644, episodic_return=-97.1098861694336
+2022-11-15 20:48:05,726 - INFO: global_step=4782, episodic_return=-715.6444091796875
+2022-11-15 20:48:06,853 - INFO: global_step=4963, episodic_return=-906.9117431640625
+2022-11-15 20:48:07,311 - INFO: global_step=5035, episodic_return=-513.4266357421875
+2022-11-15 20:48:07,898 - INFO: global_step=5124, episodic_return=-510.9911804199219
+2022-11-15 20:48:08,435 - INFO: global_step=5206, episodic_return=-465.0610656738281
+2022-11-15 20:48:08,948 - INFO: global_step=5287, episodic_return=-420.6327209472656
+2022-11-15 20:48:09,306 - INFO: global_step=5342, episodic_return=-117.23162841796875
+2022-11-15 20:48:09,778 - INFO: global_step=5422, episodic_return=-541.1781616210938
+2022-11-15 20:48:10,325 - INFO: global_step=5510, episodic_return=-574.783447265625
+2022-11-15 20:48:10,874 - INFO: global_step=5608, episodic_return=-330.36505126953125
+2022-11-15 20:48:11,336 - INFO: global_step=5689, episodic_return=-553.8807373046875
+2022-11-15 20:48:11,926 - INFO: global_step=5784, episodic_return=-377.23455810546875
+2022-11-15 20:48:12,433 - INFO: global_step=5868, episodic_return=-481.3851623535156
+2022-11-15 20:48:12,914 - INFO: global_step=5938, episodic_return=-590.724609375
+2022-11-15 20:48:14,223 - INFO: global_step=6168, episodic_return=-1279.790283203125
+2022-11-15 20:48:14,567 - INFO: global_step=6224, episodic_return=-117.72599029541016
+2022-11-15 20:48:14,952 - INFO: global_step=6283, episodic_return=-107.51309204101562
+2022-11-15 20:48:15,507 - INFO: global_step=6378, episodic_return=-594.9005126953125
+2022-11-15 20:48:16,313 - INFO: global_step=6500, episodic_return=-779.9468994140625
+2022-11-15 20:48:16,807 - INFO: global_step=6580, episodic_return=-354.79522705078125
+2022-11-15 20:48:17,141 - INFO: global_step=6636, episodic_return=-95.98240661621094
+2022-11-15 20:48:17,579 - INFO: global_step=6710, episodic_return=-571.7278442382812
+2022-11-15 20:48:18,147 - INFO: global_step=6803, episodic_return=-542.212646484375
+2022-11-15 20:48:18,812 - INFO: global_step=6921, episodic_return=-622.4850463867188
+2022-11-15 20:48:19,445 - INFO: global_step=7024, episodic_return=-681.2368774414062
+2022-11-15 20:48:20,139 - INFO: global_step=7144, episodic_return=-746.771484375
+2022-11-15 20:48:20,784 - INFO: global_step=7240, episodic_return=-443.1026916503906
+2022-11-15 20:48:21,209 - INFO: global_step=7313, episodic_return=-447.9568786621094
+2022-11-15 20:48:21,541 - INFO: global_step=7369, episodic_return=-407.1733703613281
+2022-11-15 20:48:21,872 - INFO: global_step=7429, episodic_return=-78.60733795166016
+2022-11-15 20:48:22,412 - INFO: global_step=7522, episodic_return=-655.0348510742188
+2022-11-15 20:48:23,850 - INFO: global_step=7756, episodic_return=-1237.7242431640625
+2022-11-15 20:48:24,188 - INFO: global_step=7814, episodic_return=-85.60189056396484
+2022-11-15 20:48:24,512 - INFO: global_step=7869, episodic_return=-452.6052551269531
+2022-11-15 20:48:24,865 - INFO: global_step=7928, episodic_return=-422.017822265625
+2022-11-15 20:48:25,689 - INFO: global_step=8054, episodic_return=-723.143310546875
+2022-11-15 20:48:26,318 - INFO: global_step=8157, episodic_return=-387.7869567871094
+2022-11-15 20:48:26,809 - INFO: global_step=8230, episodic_return=-626.0068359375
+2022-11-15 20:48:27,892 - INFO: global_step=8410, episodic_return=-898.3088989257812
+2022-11-15 20:48:28,496 - INFO: global_step=8500, episodic_return=-354.755615234375
+2022-11-15 20:48:28,887 - INFO: global_step=8572, episodic_return=-474.1864929199219
+2022-11-15 20:48:29,941 - INFO: global_step=8756, episodic_return=-1012.58837890625
+2022-11-15 20:48:30,302 - INFO: global_step=8826, episodic_return=-434.4115905761719
+2022-11-15 20:48:30,662 - INFO: global_step=8880, episodic_return=-499.20263671875
+2022-11-15 20:48:31,120 - INFO: global_step=8957, episodic_return=-412.25244140625
+2022-11-15 20:48:31,523 - INFO: global_step=9020, episodic_return=-141.4454345703125
+2022-11-15 20:48:31,879 - INFO: global_step=9076, episodic_return=-183.70745849609375
+2022-11-15 20:48:32,307 - INFO: global_step=9144, episodic_return=-122.87476348876953
+2022-11-15 20:48:32,713 - INFO: global_step=9209, episodic_return=-128.53309631347656
+2022-11-15 20:48:33,249 - INFO: global_step=9292, episodic_return=-616.1891479492188
+2022-11-15 20:48:33,705 - INFO: global_step=9367, episodic_return=-165.28114318847656
+2022-11-15 20:48:34,099 - INFO: global_step=9427, episodic_return=-131.99935913085938
+2022-11-15 20:48:34,438 - INFO: global_step=9483, episodic_return=-297.69659423828125
+2022-11-15 20:48:34,835 - INFO: global_step=9548, episodic_return=-555.04638671875
+2022-11-15 20:48:35,159 - INFO: global_step=9606, episodic_return=-108.23965454101562
+2022-11-15 20:48:35,574 - INFO: global_step=9674, episodic_return=-112.14659118652344
+2022-11-15 20:48:36,096 - INFO: global_step=9754, episodic_return=-566.844970703125
+2022-11-15 20:48:36,555 - INFO: global_step=9828, episodic_return=-571.7906494140625
+2022-11-15 20:48:37,021 - INFO: global_step=9893, episodic_return=-113.8738021850586
+2022-11-15 20:48:37,347 - INFO: global_step=9950, episodic_return=-449.604736328125
+2022-11-15 20:48:37,902 - INFO: global_step=10031, episodic_return=-536.4678955078125
+2022-11-15 20:48:38,471 - INFO: global_step=10102, episodic_return=-122.39364624023438
+2022-11-15 20:48:39,011 - INFO: global_step=10163, episodic_return=-127.00825500488281
+2022-11-15 20:48:39,776 - INFO: global_step=10257, episodic_return=-422.97491455078125
+2022-11-15 20:48:40,315 - INFO: global_step=10318, episodic_return=-355.50726318359375
+2022-11-15 20:48:41,188 - INFO: global_step=10417, episodic_return=-1015.9370727539062
+2022-11-15 20:48:41,837 - INFO: global_step=10492, episodic_return=-544.8527221679688
+2022-11-15 20:48:42,420 - INFO: global_step=10563, episodic_return=-482.27142333984375
+2022-11-15 20:48:43,290 - INFO: global_step=10664, episodic_return=-279.20098876953125
+2022-11-15 20:48:44,064 - INFO: global_step=10751, episodic_return=-94.23112487792969
+2022-11-15 20:48:44,631 - INFO: global_step=10820, episodic_return=-118.41625213623047
+2022-11-15 20:48:45,263 - INFO: global_step=10899, episodic_return=28.31793212890625
+2022-11-15 20:48:45,875 - INFO: global_step=10972, episodic_return=-188.65821838378906
+2022-11-15 20:48:46,537 - INFO: global_step=11047, episodic_return=-140.21031188964844
+2022-11-15 20:48:47,306 - INFO: global_step=11132, episodic_return=-225.32809448242188
+2022-11-15 20:48:48,063 - INFO: global_step=11220, episodic_return=-109.60545349121094
+2022-11-15 20:48:48,587 - INFO: global_step=11277, episodic_return=-96.57682037353516
+2022-11-15 20:48:49,262 - INFO: global_step=11357, episodic_return=-136.513916015625
+2022-11-15 20:48:49,966 - INFO: global_step=11443, episodic_return=-134.9134521484375
+2022-11-15 20:48:50,832 - INFO: global_step=11540, episodic_return=-253.40924072265625
+2022-11-15 20:48:51,436 - INFO: global_step=11610, episodic_return=-197.86660766601562
+2022-11-15 20:48:52,059 - INFO: global_step=11681, episodic_return=-144.302978515625
+2022-11-15 20:48:52,521 - INFO: global_step=11739, episodic_return=-111.34175872802734
+2022-11-15 20:48:52,975 - INFO: global_step=11798, episodic_return=-84.89376831054688
+2022-11-15 20:48:53,644 - INFO: global_step=11878, episodic_return=-166.49176025390625
+2022-11-15 20:48:54,321 - INFO: global_step=11955, episodic_return=-119.10360717773438
+2022-11-15 20:48:55,107 - INFO: global_step=12039, episodic_return=-127.22571563720703
+2022-11-15 20:48:55,762 - INFO: global_step=12111, episodic_return=-119.4154052734375
+2022-11-15 20:48:56,564 - INFO: global_step=12199, episodic_return=-141.26011657714844
+2022-11-15 20:48:57,295 - INFO: global_step=12285, episodic_return=-125.4033432006836
+2022-11-15 20:48:57,843 - INFO: global_step=12350, episodic_return=-158.06979370117188
+2022-11-15 20:48:58,579 - INFO: global_step=12433, episodic_return=-130.944091796875
+2022-11-15 20:48:59,225 - INFO: global_step=12512, episodic_return=-121.41841125488281
+2022-11-15 20:49:00,073 - INFO: global_step=12614, episodic_return=-201.09872436523438
+2022-11-15 20:49:00,608 - INFO: global_step=12677, episodic_return=-95.69027709960938
+2022-11-15 20:49:01,092 - INFO: global_step=12745, episodic_return=-82.59417724609375
+2022-11-15 20:49:01,932 - INFO: global_step=12846, episodic_return=-266.39373779296875
+2022-11-15 20:49:02,536 - INFO: global_step=12914, episodic_return=-34.0982666015625
+2022-11-15 20:49:03,289 - INFO: global_step=13010, episodic_return=-73.72518920898438
+2022-11-15 20:49:04,206 - INFO: global_step=13121, episodic_return=-36.224632263183594
+2022-11-15 20:49:04,746 - INFO: global_step=13180, episodic_return=-131.4463653564453
+2022-11-15 20:49:05,386 - INFO: global_step=13256, episodic_return=-145.8709259033203
+2022-11-15 20:49:06,073 - INFO: global_step=13339, episodic_return=-132.51889038085938
+2022-11-15 20:49:06,528 - INFO: global_step=13397, episodic_return=-107.36714172363281
+2022-11-15 20:49:07,549 - INFO: global_step=13504, episodic_return=-163.73248291015625
+2022-11-15 20:49:08,588 - INFO: global_step=13626, episodic_return=-528.1925048828125
+2022-11-15 20:49:09,495 - INFO: global_step=13738, episodic_return=-42.22356414794922
+2022-11-15 20:49:10,222 - INFO: global_step=13823, episodic_return=-197.8763885498047
+2022-11-15 20:49:10,865 - INFO: global_step=13897, episodic_return=-57.538856506347656
+2022-11-15 20:49:12,319 - INFO: global_step=14063, episodic_return=-90.04252624511719
+2022-11-15 20:49:12,997 - INFO: global_step=14143, episodic_return=-196.95108032226562
+2022-11-15 20:49:13,515 - INFO: global_step=14202, episodic_return=-66.56240844726562
+2022-11-15 20:49:14,289 - INFO: global_step=14296, episodic_return=-370.6538391113281
+2022-11-15 20:49:15,305 - INFO: global_step=14418, episodic_return=-286.9008483886719
+2022-11-15 20:49:16,567 - INFO: global_step=14568, episodic_return=-41.13774871826172
+2022-11-15 20:49:17,395 - INFO: global_step=14665, episodic_return=-138.77174377441406
+2022-11-15 20:49:18,232 - INFO: global_step=14765, episodic_return=28.831314086914062
+2022-11-15 20:49:19,186 - INFO: global_step=14876, episodic_return=-444.1466979980469
+2022-11-15 20:49:20,355 - INFO: global_step=15010, episodic_return=-415.72021484375
+2022-11-15 20:49:21,477 - INFO: global_step=15143, episodic_return=-136.57858276367188
+2022-11-15 20:49:22,440 - INFO: global_step=15253, episodic_return=-206.6324462890625
+2022-11-15 20:49:23,060 - INFO: global_step=15321, episodic_return=-100.1029281616211
+2022-11-15 20:49:24,108 - INFO: global_step=15442, episodic_return=-104.35301971435547
+2022-11-15 20:49:25,254 - INFO: global_step=15582, episodic_return=-316.1349792480469
+2022-11-15 20:49:27,409 - INFO: global_step=15837, episodic_return=-320.30816650390625
+2022-11-15 20:49:29,741 - INFO: global_step=16109, episodic_return=-365.9938049316406
+2022-11-15 20:49:30,592 - INFO: global_step=16204, episodic_return=-223.24693298339844
+2022-11-15 20:49:31,697 - INFO: global_step=16333, episodic_return=-252.27789306640625
+2022-11-15 20:49:32,851 - INFO: global_step=16467, episodic_return=-229.05160522460938
+2022-11-15 20:49:34,257 - INFO: global_step=16627, episodic_return=-322.39678955078125
+2022-11-15 20:49:35,793 - INFO: global_step=16805, episodic_return=-30.348533630371094
+2022-11-15 20:49:37,331 - INFO: global_step=16993, episodic_return=-174.68255615234375
+2022-11-15 20:49:38,970 - INFO: global_step=17182, episodic_return=66.89666748046875

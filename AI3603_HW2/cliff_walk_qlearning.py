@@ -83,24 +83,23 @@ for episode in range(1000):
     agent.alpha *= args.da
     agent.epsilon *= args.de 
 print('\ntraining over\n')   
-
-# reset for visualization
-agent.epsilon = 0
-logger.info(f"\n=========== The Final Path ===========")
-# reset env
-s = env.reset()
-# render env
-env.render()
-while True:
-    # choose an action
-    a = agent.choose_action(s)
-    logger.info(f"state: {s}; action: {a}")
-    s_, r, isdone, info = env.step(a)
-    time.sleep(0.5)
-    env.render()
-    s = s_
-    if isdone:
-        break
+# # visualize the final path
+# agent.epsilon = 0
+# logger.info(f"\n=========== The Final Path ===========")
+# # reset env
+# s = env.reset()
+# # render env
+# env.render()
+# while True:
+#     # choose an action
+#     a = agent.choose_action(s)
+#     logger.info(f"state: {s}; action: {a}")
+#     s_, r, isdone, info = env.step(a)
+#     time.sleep(0.5)
+#     env.render()
+#     s = s_
+#     if isdone:
+#         break
 
 # close the render window after training.
 env.close()
